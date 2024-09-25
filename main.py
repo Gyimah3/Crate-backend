@@ -49,7 +49,7 @@ app = FastAPI(
 
 # CORS configuration to allow specific origins
 origins = [
-    "http://localhost:3000",
+    "http://localhost:3000",'https://hackathon-4zpkc7a6f-gideon-gyimahs-projects.vercel.app',
 ]
 
 app.add_middleware(
