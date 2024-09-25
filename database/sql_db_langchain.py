@@ -21,7 +21,7 @@ def init_db():
     df_retail['Sales_Value'] = df_retail['Sales_Value'].str.replace(',', '').astype(float)
 
     # Load crate.csv
-    df_crate = pd.read_csv("database\crate_imputed.csv")
+    df_crate = pd.read_csv("database/crate_imputed.csv")
     # Add any necessary preprocessing for df_crate here
 
     engine = get_engine()
